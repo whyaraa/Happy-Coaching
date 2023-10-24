@@ -66,16 +66,14 @@ ul {
     transition: 0.4s;
 }
 
-.getyourfree a:hover {
-    color: #514e4e;
-    transition: 0.4s;
-}
-
 .getyourfree:hover {
     transform: scale(1.1);
     transition: 1s;
 }
 
+.read_text {
+    color: white;
+}
 
 .container2 {
     width: 1250px;
@@ -175,9 +173,38 @@ ul {
     box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
     margin-left: 100px;
     position: absolute;
-    top: 115px;
-    left: 700px;
+    top: 200px;
+    right: 750px;
 }
+
+
+.btn {
+    width: 225px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #20AD96;
+    align-items: center;
+    transition: 1s;
+}
+
+
+.btn a {
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+/* .btn a:hover {
+    color: #514e4e;
+    transition: 0.4s;
+} */
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 
 .v_tel {
     width: 56px;
@@ -211,12 +238,10 @@ ul {
 }
 
 .liza {
-    width: 462px;
-    height: 603px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray -196.911px -15.836px / 200.966% 102.626% no-repeat;
     position: absolute;
-    top: 160px;
+    top: 250px;
     right: 266px;
 }
 
@@ -807,6 +832,7 @@ ul {
 .road_box {
     display: flex;
     width: 250px;
+    height: 50px;
     padding: 9px 16px;
     justify-content: center;
     align-items: center;
@@ -822,7 +848,6 @@ ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    /* 171.429% */
     margin: 0 auto;
 }
 
