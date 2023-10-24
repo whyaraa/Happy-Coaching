@@ -977,6 +977,7 @@ footer {
     background: #20AD96;
     align-items: center;
     border: none;
+    transition: 1s;
 }
 
 .foot-btn a {

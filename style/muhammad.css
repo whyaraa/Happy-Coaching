@@ -651,8 +651,10 @@ footer {
     display: flex;
     justify-content: center;
     border-radius: 8px;
+    border: none;
     background: #20AD96;
     align-items: center;
+    transition: 1s;
 }
 
 .foot-btn a {
