@@ -56,14 +56,10 @@ ul {
     display: flex;
     justify-content: center;
     border-radius: 4px;
+    color: white;
     background: #20AD96;
     align-items: center;
     transition: 1s;
-}
-
-.getyourfree a {
-    color: #ffffff;
-    transition: 0.4s;
 }
 
 .getyourfree:hover {
@@ -980,6 +976,7 @@ footer {
     border-radius: 8px;
     background: #20AD96;
     align-items: center;
+    border: none;
 }
 
 .foot-btn a {

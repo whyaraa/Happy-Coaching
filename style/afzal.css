@@ -81,21 +81,11 @@ ul {
     justify-content: center;
     margin-top: -30px;
     border-radius: 4px;
+    color: white;
     background: #20AD96;
     align-items: center;
     transition: 1s;
 }
-
-.getyourfree a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-/* .getyourfree a:hover {
-    color: #514e4e;
-    transition: 0.4s;
-} */
 
 .getyourfree:hover {
     transform: scale(1.1);
